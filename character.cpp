@@ -3,7 +3,7 @@
 main()
 {
 	char a;
-	printf("Entrea character");
+	printf("Entre a character:");
 	scanf("%c",&a);
 	printf("Value of a is %c",a);
 	getch();
