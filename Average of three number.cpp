@@ -7,7 +7,7 @@ int main()
 	b=55;
 	c=30;
 	d=(a+b+c)/3;
-	printf("sum of %d,%d and %d is %d",a,b,c,d);
+	printf("average of %d,%d and %d is %d",a,b,c,d);
 	getch();
 
 }
