@@ -7,6 +7,6 @@ main()
 	printf("Enter the value of two bases and height:\n");
 	scanf("%f%f%f",&a,&b,&h);
 	area=1/2.0*(a+b)*h;
-	printf("Area of trapezium is %f",area);
+	printf("Area of trapezium is %.2f",area);
 	getch();
 }
