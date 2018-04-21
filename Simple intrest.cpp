@@ -7,6 +7,6 @@ main()
 	printf("Enter the value of price,time and rate:\n");
 	scanf("%f%f%f",&P,&T,&R);
 	SI=(P*T*R)/100;
-	printf("simple intrest %.2f",SI);
+	printf("simple intrest is %.2f",SI);
 	getch();
 }
