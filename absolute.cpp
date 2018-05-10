@@ -8,7 +8,7 @@ int main()
 	if(a<0)
 	{
 		a=-a;
-    }
+        }
 	printf("Absolute value is %d",a);	
 	
 	getch();	
