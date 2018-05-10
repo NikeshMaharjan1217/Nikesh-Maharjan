@@ -8,13 +8,12 @@ int main()
 	if(cp<sp)
 	{
 		profit=sp-cp;
-		printf("Profit is %d",profit)  ;
-    }
-    else
-    {
-    	loss=cp-sp;
-    	printf("Loss is %d",loss);
-    }
-	
+		printf("Profit is %d",profit);
+	}
+	else
+	{
+		loss=cp-sp;
+		printf("Loss is %d",loss);
+	}
 	getch();	
 }
