@@ -23,7 +23,7 @@ int main()
 			}
 			else
 			{
-			    printf("The given number is odd");
+				printf("The given number is odd");
 		    }
 			break;
 		case 2:
@@ -33,7 +33,6 @@ int main()
 			{
 				printf("The given character is alphabet");
 			}
-			
 			else
 			{
 			    printf("The given character is not alphabet");
@@ -44,11 +43,11 @@ int main()
 			scanf("%c",&ch);
 			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U');
 			{
-			 	printf("The given character is vowel");
-		    }
-		    else
+				printf("The given character is vowel");
+			}
+			else
 			{
-			    printf("The given character is not vowel");
+				printf("The given character is not vowel");
 			}
 		    break;
 		case 4:
