@@ -9,20 +9,20 @@ int main()
 	   system("cls");
 	   if(count>0)
 	   {
-	   	printf("***Invalid pin***");
+	   	    printf("***Invalid pin***");
 	   }
 	   printf("\nEnter pin number:");
 	   scanf("%d",&pin);
 	   count++;
 	}while(pin!=1234&&count<3);
-	if (count<=3)
-	{
-	   printf("***WELCOME***");
-    }
-    else if (count>=3)
-    {
-    	printf("***System falure due to too many try***");
-	}
+	   if(pin==1234)
+	   {
+	        printf("***WELCOME***");
+	   }
+	   else
+	   {
+	   	printf("***System falure due to too many try***");
+	   }
 
 	getch();
 }
