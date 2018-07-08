@@ -1,21 +1,14 @@
-
 #include<stdio.h>
 #include<conio.h>
 int main()
 {
-	int x,y,i,a[]={1,5,6,3,5,2,8,5};
-	printf("Enter the value of old and new:\n");
-	scanf("%d%d",&x,&y);
-	for(i=0;i<=7;i++)
+	int i,n=9,a[9]={0,1};
+	for(i=2;i<n;i++)
 	{
-		if(x==a[i])
-		a[i]=y;
+		a[i]=a[i-2]+a[i-1];	
 	}
-	for(i=0;i<=7;i++)
+	for(i=0;i<n;i++)
 	{
-		printf("%d\t",a[i]);
-	}
-	getch();
-}
-
-
+	printf("a[%d]=%d\n",i,a[i]);
+    } 
+}                                
